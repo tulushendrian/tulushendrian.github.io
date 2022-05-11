@@ -4,7 +4,7 @@
 <p>Hello everyone in github. This is my fist time I used GITHUB PAGES. I was very beginner.</p>
 
 <p>This is dogs photo i got from internet</p>
-<img src href="https://upload.wikimedia.org/wikipedia/commons/4/43/Cute_dog.jpg" alt="Dogs">
+<img src href="https://github.com/tulushendrian/tulushendrian.github.io/blob/main/pexels-cottonbro-6568501.jpg" alt="Dogs">
 <p>I am intersted in:</p>
 <ul>
 <li>Python</li>
