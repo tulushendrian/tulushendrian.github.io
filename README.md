@@ -13,7 +13,7 @@
     </ul>
     <div id="projects">
       <ul>
-        <li><a href="https://tulushendrian.github.io/blob/main/Project/Responsive%20Web%20Design/02.%20Tribute%20Page/index.html">Dog Tribute Page</a></li>
+        <li><a href="https://tulushendrian.github.io/Project/Responsive%20Web%20Design/02.%20Tribute%20Page/index.html">Dog Tribute Page</a></li>
         <li></li>
         <li></li>
       </ul>
