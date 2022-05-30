@@ -12,6 +12,7 @@
       <li>Data Analysist</li>
     </ul>
     <div id="projects">
+      <h2>My Projects</h2>
       <ul>
         <li><a href="https://tulushendrian.github.io/Project/Responsive%20Web%20Design/02.%20Tribute%20Page/index.html">Dog Tribute Page</a></li>
         <li></li>
