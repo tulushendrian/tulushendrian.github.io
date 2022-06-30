@@ -1,0 +1,45 @@
+body {
+  background-image:url('https://raw.githubusercontent.com/tulushendrian/tulushendrian.github.io/main/media/background/01.-Royal-Heath.webp');
+  padding: 0px;
+  margin: 0;
+  border: 1px solid black
+}
+
+.container-fluid {
+  padding: px;
+  max-width: 800px;
+  margin: 1px auto;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 5px
+}
+
+.about-me {
+  display: grid;
+  padding: 0.5rem;
+  grid-template-columns: 200px 10fr;
+  //gap: 0px;
+  align-items: center;
+  max-width: 800px;
+  //margin: 0 auto;
+  //font: 500 100%/1.5 system-ui;
+}
+
+h5 {
+  padding-top: 5em
+}
+
+#readme {
+  text-align: justify;
+  font-style: italic;
+}
+
+#contact-me {
+  margin-top: 1em;
+  padding: 0.3em;
+  min-width: 100%;
+}
+
