@@ -1,83 +1,122 @@
-html {
-  heigth: 450px;
-}
-
 body {
   margin: 0;
-  padding: 0; 
-  font-family: monospace, 'serif';
-  display: block;
-  max-height: 450px;
-}
-
-.dashboard {
-  height: 520px;
-  width: auto;
-  overflow: auto;
-  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url('https://github.com/tulushendrian/tulushendrian.github.io/blob/main/media/dashboard.jpg?raw=true');
-  background-size: cover;
-  //background-repeat: no-repeat;
-  color: white;
-  text-align: center;
+  font-family: monospace, 'sans-serif';
+  background: #222831;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: right;
+  width: 20%;
+  margin: auto
 }
 
 li a {
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  color: #000;
+  padding: 6px 0px;
   text-decoration: none;
+  text-align: center;
 }
 
 li a:hover {
-  color: #111;
+  color: green;
 }
 
-.brand h1 {
-  float: left;
-  margin: 0;
-  padding: 14px 16px;
+.dashboard {
+  background-color: #00ADB5;
+  padding: 50px 0px;
+  width: 100%;
+  text-align: center;
+  margin-top: 1em;
 }
 
-.header {
-  padding-top: 120px;
+#img-me {
+  margin: 2em 0em;
+  flex: 30%;
+  max-width: 30%;
+  padding-left: 1em;
 }
-
-.header h2 {
+#text-me {
+  flex: 70%;
+  max-width: 70%;
+  margin: 2em 1em;
+  display:flex;
+  align-items:center;
+  text-align: justify;
+  padding: 1em;
+  font-size: larger;
   font-style: italic;
-  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.about-me {
+  display: flex;
+  padding-top: 3em
+}
+
+img {
+  width: 100%;
+  filter: grayscale(0%);
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-me {
+    position: relative;
+  text-align: center;
+  color: black;
+  }
+  
+  #img-me {
+    min-width: 100%;
+    align-items: center;
+    padding: 0;
+    
+  }
+  #text-me {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    background-color: white;
+    opacity: 70%;
+    border-radius: 5px;
+    max-width: 100%;
+    
+  }
+}
+
+.project-container {
+  text-align: center;
+}
+
+.project-ul {
+  display: flex;
+  width: 100%;
+}
+
+.project {
+  flex: 50%;
+  max-width: 50%;
+  margin: 1em
+}
+
+.content {
+  max-width: 900px;
+  min-width: 300px;
+  margin: auto;
+  background: white;
 }
 
 footer {
-  //border: 1px solid black;
-  padding: 0.6em 0 0.6em 0;
+  width: 100%;
   text-align: center;
-  background: #FF8B8B;
-  margin: 0;
-  opacity: 100%
+  //align-items: center;
+  background: #EEEEEE
+  
 }
 
-.social a {
-  //border: 1px solid black;
-  padding: 5px;
-  padding-top: 10px;
-  background: brown;
-  color: white;
-  margin: 3px;
-  border-radius: 5px
+.icon img {
+  width: 25px;
+  padding: 0.3em
 }
-
-.social a:hover {
-  color: #111;
-};
