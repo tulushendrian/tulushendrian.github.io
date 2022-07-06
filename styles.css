@@ -52,7 +52,9 @@ li a:hover {
 
 .about-me {
   display: flex;
-  padding-top: 3em
+  padding-top: 0em;
+  background: #EEEEEE;
+  
 }
 
 img {
@@ -64,15 +66,16 @@ img {
 @media only screen and (max-width: 600px) {
   .about-me {
     position: relative;
-  text-align: center;
-  color: black;
+    text-align: center;
+    color: black;
   }
   
   #img-me {
     min-width: 100%;
     align-items: center;
     padding: 0;
-    
+    margin: 0;
+    background: #00ADB5;
   }
   #text-me {
     position: absolute;
@@ -82,12 +85,13 @@ img {
     opacity: 70%;
     border-radius: 5px;
     max-width: 100%;
-    
   }
 }
 
 .project-container {
   text-align: center;
+  background-color: #00ADB5;
+  padding-top: 1em;
 }
 
 .project-ul {
@@ -103,16 +107,15 @@ img {
 
 .content {
   max-width: 900px;
-  min-width: 300px;
+  min-width: 350px;
   margin: auto;
-  background: white;
+  background: #EEEEEE;
 }
 
 footer {
   width: 100%;
   text-align: center;
-  //align-items: center;
-  background: #EEEEEE
+  background: #EEEEEE;
   
 }
 
