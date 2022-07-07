@@ -7,6 +7,7 @@ body {
 
 .content, footer {
   max-width: 900px;
+  min-width: 600px;
   margin: auto;
   background: #774360;
   display: block;
@@ -57,7 +58,7 @@ p a:hover {
 
 .col-footer {
   //width: 100%;
-  border: 1px solid;
+  //border: 1px solid;
   display: grid;
 }
 
