@@ -2,17 +2,17 @@ body {
   background: #4C3A51;
   margin: 0;
   padding: 0;
-  color: #1B2430
+  color: #1B2430;
 }
 
 .content, footer {
   max-width: 900px;
-  min-width: 600px;
   margin: auto;
   background: #774360;
   display: block;
   font-family: Monospace, 'Sans-serif';
   padding: 3em;
+  min-width: 300Px;
 }
 
 #icon {
@@ -49,7 +49,7 @@ body {
 p a {
   text-decoration: none;
   font-weight: bold;
-  color: black;
+  color: #1B2430;
 }
 
 p a:hover {
@@ -60,13 +60,65 @@ p a:hover {
   //width: 100%;
   //border: 1px solid;
   display: grid;
+  //border: 1px solid;
+  margin: auto;
+  margin-top: 1em;
+}
+
+#juan-img {
+  width: 100px;
+}
+
+#juan-img p {
+  margin: 0;
+  //padding: 0;
+}
+
+.col-footer h4, .col-footer a {
+  margin: 5px;
 }
 
 footer {
   background: #B25068;
   //width: 100%;
   //border-top: 1px solid white;
-  margin: auto;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #1B2430;
+}
+
+#nav a:hover {
+  text-decoration: underline;
+}
+
+.col-footer img {
+  width: 100px;
+}
+
+@media only screen and (max-width: 600px){
+  .content {
+    padding: 1em;
+    //color: black;
+    font-size: 1.2em
+  }
+  #nav {
+    display: grid;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .row {
+    display: block;
+    //border: 1px solid;
+  }
+  #icon, #name {
+    display: none;
+  }
+  #about-me {
+    margin-top: 1em;
+    //border: 1px solid;
+  }
 }
