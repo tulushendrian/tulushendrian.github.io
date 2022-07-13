@@ -12,7 +12,7 @@ body {
   display: block;
   font-family: Monospace, 'Sans-serif';
   padding: 3em;
-  min-width: 300Px;
+  //min-width: 300Px;
 }
 
 #icon {
@@ -63,6 +63,8 @@ p a:hover {
   //border: 1px solid;
   margin: auto;
   margin-top: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 #juan-img {
@@ -76,6 +78,7 @@ p a:hover {
 
 .col-footer h4, .col-footer a {
   margin: 5px;
+  text-decoration: none;
 }
 
 footer {
@@ -84,9 +87,10 @@ footer {
   //border-top: 1px solid white;
   padding-top: 1em;
   padding-bottom: 1em;
+  
 }
 
-#nav a {
+#nav a, .nav a, #whatsapp {
   text-decoration: none;
   color: #1B2430;
 }
@@ -99,17 +103,58 @@ footer {
   width: 100px;
 }
 
+.quote h4 {
+  //border: 1px solid;
+  margin: 0;
+  //padding: 0;
+}
+
+.quote {
+  max-width: 40%;
+}
+
+#footer2 {
+  //border: 1px solid;
+  display: block;
+  padding-bottom: 3em
+}
+
+#whatsapp {
+  float: right;
+  //border: 1px solid;
+}
+
+#email {
+  float: left;
+}
+
+#projects {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#project-title h1 {
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px){
   .content {
-    padding: 1em;
+    padding: 0.5em;
     //color: black;
-    font-size: 1.2em
+    font-size: 1.2em;
   }
   #nav {
     display: grid;
     font-size: 1.2em;
     text-align: center;
+    font-family: Georgia;
+    padding-bottom: 1em;
   }
+  
+  #nav a {
+    padding-top: 0.3em;
+  }
+  
   .row {
     display: block;
     //border: 1px solid;
@@ -121,4 +166,23 @@ footer {
     margin-top: 1em;
     //border: 1px solid;
   }
+  
+  h1, #about-me p {
+    //border: 1px solid;
+    margin: 0
+  }
+  
+  #about-me p {
+    text-align: justify;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    text-justify: inter-word;
+  }
 }
+
+span {
+  color: #FAEA48
+}
+
+
+
