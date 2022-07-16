@@ -89,6 +89,8 @@ footer {
   padding-bottom: 1em;
 }
 
+
+
 #nav a, .nav a, #whatsapp {
   text-decoration: none;
   color: #1B2430;
@@ -136,6 +138,10 @@ footer {
   text-align: center;
 }
 
+#footer-small, #footer2-small {
+  display: none;
+}
+
 @media only screen and (max-width: 600px){
   .content {
     padding: 0.5em;
@@ -181,24 +187,61 @@ footer {
 
 @media only screen and (max-width: 470px){
   footer {
-    display: grid;
+    display: none;
   }
+  #footer-small {
+    display: block;
+  }
+  #social-img {
+    display: flex
+  }
+  #footer2-small {
+    display: flex;
+    width: 100%;
+    //padding-bottom: 4em;
+    //border: 1px solid;
+    //margin: 0px auto;
+    
+
+  }
+  .nav a {
+    margin: 0em;
+    //border: 1px solid;
+    padding-right: 1em;
+    font-size: 1em
+  }
+  
+  
   .quote {
-  max-width: 80%;
+  max-width: 100%;
   }
+  #small-screen {
+    display: flex;
+  }
+  
   #social, #juan-img {
-    //display: flex;
+    //display: inline-block;
     width: 50%;
-    flex: 50%
+    text-align: center;
+    //align-items: center;
+    //border: 1px solid;
+    padding-top: 1em;
+      
+  }
+  
+  #juan-img-link {
+    //align-items: center;
+    margin: auto;
   }
   #footer2 {
-    display: grid;
+    display: block;
+    font-size: 0
   }
-  #email, #whatsapp {
-    float: center;
-  }
+  
 }
 
 span {
-  color: #FAEA48
+  color: #FAEA48;
+  text-align: center;
+  display: block;
 }
